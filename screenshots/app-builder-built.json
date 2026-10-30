@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "URL 파싱 다이어그램",
+      "hasCanvas": false,
+      "bodyTextLen": 1254,
+      "bodyTextHash": "cf3866f50b2d7aed9f1ac5f14bd206a3bb42e162370401cc6ed46754e1f44c07",
+      "bodyTextPrefix": "RFC 3986 · WHATWG URL 파싱 다이어그램 주소 한 줄을 스킴, 권한, 경로, 쿼리, 프래그먼트로 나눕",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "URL 파싱 다이어그램",
+      "hasCanvas": false,
+      "bodyTextLen": 1276,
+      "bodyTextHash": "19771d5357f569009ce117fe2559645ade397792d1e26bace9ec9bf617517ad4",
+      "bodyTextPrefix": "RFC 3986 · WHATWG URL 파싱 다이어그램 주소 한 줄을 스킴, 권한, 경로, 쿼리, 프래그먼트로 나눕",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [
+    "BRAND NOTE: no custom public/og.jpg — the platform will serve the og.grok.me placeholder. Custom cards are the default for games of every kind (DOM board/word games included), whimsical apps, creative tools, and brand-forward pages — only plain utilities (converters, CRUD trackers, admin dashboards) keep the placeholder. If this app is not a plain utility, finish the brand-asset pass per /workspace/.grok/skills/og/SKILL.md."
+  ],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

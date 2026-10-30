@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --color-paper: #ebe6dc;
+  --color-paper-2: #e3dcd0;
+  --color-card: #f7f4ee;
+  --color-ink: #1c1915;
+  --color-muted: #5c564c;
+  --color-line: #d9d0c3;
+  --color-teal: #0f5e56;
+  --color-teal-ink: #f4f0e8;
+  --color-teal-soft: #d5ebe4;
+  --color-copper: #8f3d18;
+  --color-copper-soft: #f6e3d4;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    line-height: 1.5;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-teal);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: var(--color-teal);
+    color: var(--color-teal-ink);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
